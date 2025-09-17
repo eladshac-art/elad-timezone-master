@@ -6,11 +6,6 @@ import '../styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Time Zone Planner',
-  description: 'Schedule meetings across time zones effortlessly.',
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
