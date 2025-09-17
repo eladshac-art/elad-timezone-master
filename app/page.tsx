@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useMemo, useState, useRef } from 'react';
-import ComboBox from '../components/ComboBox';
-import AbbrevSelect from '../components/AbbrevSelect';
-import { displayForIana, buildTimeZoneOptions } from '../lib/tz-data';
+import PickerBox from '../components/picker-box';
+import AbbrevPicker from '../components/abbrev-picker';
+import { displayForIana, buildTimeZoneOptions } from '../lib/timezone-data';
 
 // ---------- helpers ----------
 const pad = (n: number) => n.toString().padStart(2, '0');
